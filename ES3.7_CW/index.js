@@ -16,4 +16,4 @@ const generateUrl = (endpoint,params) =>{
     return `https://api.emaple.com/${endpoint}?${params}`
 }
 
-console.log(generateUrl("users","page=1&limit=10"))
+console.log(generateUrl("users","page=1&limit=10"));
